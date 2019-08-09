@@ -1,0 +1,163 @@
+body{
+    width: 45vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+        border: 0px solid;
+        padding: 0px;
+        box-shadow: 5px 20px grey;
+      
+}
+
+.header{
+    display: flex;
+    height: 25%;
+    width:100%;
+}
+
+.header-box{
+    width:100%;
+    padding-top: 25px;
+    padding-left: 10px;
+    background-color: #dce0d2;
+    
+}
+
+.header-box p{
+    font-size: 1.6vh;
+    font-weight: bold;
+}
+
+.design-container{
+    display: block;
+    height: 75%;
+}
+
+.title{
+    float: left;
+    left: 5%;
+    /* height: 5%; */
+    width: 100%;
+    display: table;
+    position: relative;
+    font: 'Roboto', sans-serif;
+}
+
+.title h1{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    font-size: 10vmin;
+    color: black;
+    margin-left: 2%;
+}
+
+.design{
+    background-color:#007d8c;
+    width: 45vw;
+    height: 75vh;
+    position: fixed;
+    animation: pulse 20s;
+
+}
+
+.inner-box{
+    background-color:#015e63;
+    height: 60%;
+    width:60%;
+    margin: auto;
+    margin-top: 5%;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.inner-box-2{
+    background-color:#014946;
+    height: 70%;
+    width:70%;
+    top: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    animation: pulse 10s;
+}
+
+.inner-box-3{
+    background-color:#003933;
+    height: 65%;
+    width:65%;
+    top: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+} 
+
+.inner-box-4{
+    background-color:#002c1f;
+    height: 60%;
+    width:60%;
+    top: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+} 
+
+/* .inner-box-5{
+    background-color:#002013;
+    height: 55%;
+    width:55%;
+    top: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}  */
+
+/* .inner-box-6{
+    background-color:#002013;
+    height: 50%;
+    width:50%;
+    top: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}  */
+
+/* .inner-box-7{
+    background-color : #001405;
+    height: 45%;
+    width:45%;
+    top: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+} 
+
+.inner-box-8{
+    background-color:black;
+    height: 40%;
+    width:40%;
+    top: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}  */
+
+.box6{
+    width:70%;
+    height:70%;
+}
+
+.box7{
+    width:60%;
+    height:60%;
+} 
+
+@keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }
